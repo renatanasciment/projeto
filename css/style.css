@@ -1,0 +1,37 @@
+/* Seletor global */
+* {
+    margin: 0;  /*margem da folha a4*/
+    padding: 0;  /* espacamento do texto */ 
+}
+
+/* tag html */
+body{
+    font-family: Arial, Verdana, helvetica, sans-serif;
+}
+
+h1 {
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+font-size: 30px;
+color: blueviolet;
+}
+
+p {
+    font-size: 16px;
+    color: #000;
+}
+
+/* seletor de ID# */
+#topo{
+    background: #ccc;
+}
+
+#rodape {
+    background: #222;
+    }
+
+/* seletor de class (quando for class começa com "." quando for id começa com #*/
+.assuntos {
+    background-color: aquamarine;
+    margin: 10px 10px;
+}
+
